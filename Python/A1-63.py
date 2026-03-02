@@ -1,7 +1,7 @@
 seats=int(input())
 while True:
     try:
-        age,n=map(int,input().split())
+        age,n=map(int,input().split(" "))
     except EOFError:
         break
     if(age<15):
